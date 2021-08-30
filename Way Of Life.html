@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>	
+
+body{
+background: rgb(221,240,218);
+}
+
+
+.wayof{			/* title*/
+color: black;
+background: rgb(188,222,182);
+opacity: 0.8;
+font-family: Arial Narrow, sans-serif;
+font-size: 40px;
+/*text-shadow: 4px 4px rgb(132,135,131);*/
+text-align: center;
+}
+
+
+
+.life{			/* title*/
+color: black;
+background: rgb(188,222,182);
+
+opacity: 0.8;
+font-family: lucida handwriting;
+font-size: 50px;
+text-shadow: 4px 4px rgb(132,135,131);
+text-align: center;
+}
+
+
+.date{         /* date and time*/
+color: black;
+font-family: Arial Narrow, sans-serif;
+font-size: 20px;
+text-align: center;
+}
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: rgb(119,163,145);
+  color:white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  min-width: 210px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(188,222,182);
+  min-width: 210px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(237,247,243);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:rgb(119,163,145);}
+
+
+
+
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn1 {
+  background-color:rgb(119,163,145) ;
+  color:white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  min-width: 210px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: rgb(188,222,182);
+  min-width: 210px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 4;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {background-color: rgb(237,247,243);}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn1 {background-color:rgb(119,163,145) ;}
+
+
+
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn2 {
+  background-color: rgb(119,163,145);
+  color:white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  min-width: 210px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: rgb(188,222,182);
+  min-width: 210px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 7;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content2 a:hover {background-color: rgb(237,247,243);}
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown-content2 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown2:hover .dropbtn2 {background-color:rgb(119,163,145) ;}
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn3 {
+  background-color: rgb(119,163,145);
+  color:white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  min-width: 210px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: rgb(188,222,182);
+  min-width: 210px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 7;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content3 a:hover {background-color: rgb(237,247,243);}
+
+/* Show the dropdown menu on hover */
+.dropdown3:hover .dropdown-content3 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown3:hover .dropbtn3 {background-color:rgb(119,163,145) ;}
+
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn4 {
+  background-color: rgb(119,163,145);
+  color:white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  min-width: 210px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: rgb(188,222,182);
+  min-width: 210px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 7;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content4 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content4 a:hover {background-color: rgb(237,247,243);}
+
+/* Show the dropdown menu on hover */
+.dropdown4:hover .dropdown-content4 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown4:hover .dropbtn4 {background-color:rgb(119,163,145) ;}
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn5 {
+  background-color: rgb(119,163,145);
+  color:white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  min-width: 210px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown5 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content5 {
+  display: none;
+  position: absolute;
+  background-color: rgb(188,222,182);
+  min-width: 210px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 7;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content5 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content5 a:hover {background-color: rgb(237,247,243);}
+
+/* Show the dropdown menu on hover */
+.dropdown5:hover .dropdown-content5 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown5:hover .dropbtn5 {background-color:rgb(119,163,145) ;}
+
+
+
+/* Dropdown Button */
+.dropbtn6 {
+  background-color: rgb(119,163,145);
+  color:white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  min-width: 210px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown6 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content6 {
+  display: none;
+  position: absolute;
+  background-color: rgb(188,222,182);
+  min-width: 210px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 7;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content6 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content6 a:hover {background-color: rgb(237,247,243);}
+
+/* Show the dropdown menu on hover */
+.dropdown6:hover .dropdown-content6 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown6:hover .dropbtn6{background-color:rgb(119,163,145) ;}
+
+
+
+.mainhd{
+text-align: center;
+ font-size: 30px;
+ font-family: sans-serif;
+ text-decoration: underline;
+ text-decoration-color: black;
+ margin-bottom: 50px;
+ font-weight: bold;
+
+}
+
+.subhd{
+ font-size: 20px;
+ text-align: left;
+ font-family: sans-serif;
+ text-decoration: underline;
+ text-decoration-color: black;
+ padding-right: 20px;
+padding-left: 20px;
+
+
+}
+
+
+.content{
+font-size: 15px;
+font-family: sans-serif;
+text-align: justify-all;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+
+
+.image1 {
+display: block;
+
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+border: 10px solid black;
+}
+
+
+.image2{
+display: block;
+float:right;
+width: 20%;
+border: 7px solid black;
+}
+
+.logo{
+display: block;
+z-index: 1000;
+position: relative;
+width: 7%;
+position: absolute;
+ top: 25px;
+ left: 550px;
+}
+
+
+
+
+
+</style>
+</head>
+
+<title> Way of  Life </title>
+
+
+<img src="https://lh3.googleusercontent.com/proxy/grVrM_gQvYuc6gZatOXaAkhM-6nlHv-yaJmLDqlG_3LYeCmT_UH-Bz3bSj_bCcYHZw6qA8-8hF8ZMu9bRVND7TA4V8LmhgmpuPQ6769nV8S7Rkn6PPwdjwSXH-OzGQwtY4RtJ1sPFEE7X3iL8c6jTWhUwBoVu61Uy-01yWJAuH3yhU8QuZ4" class="logo" >
+
+<h1> <div class= wayof> Way Of </div>  <div class=life> L I F E </div></h1>
+
+<h2> <div class=date> Saturday, November 28, 2020 </div></h2>
+
+<div class="dropdown">
+	<button class= "dropbtn"> TRENDING </button>
+	<div class= "dropdown-content">
+	<a href=> Achievers </a>
+	<a href=> #DIYMasks</a>
+	<a href=> In The News </a>
+	</div>
+</div>
+
+
+	<div class="dropdown1">
+	<button class= "dropbtn1">FASHION</button>
+	<div class= "dropdown-content1">
+	<a href=> Winter Is Here</a>
+	<a href=> Trending Now</a>
+	<a href=> Ask The Expert </a>
+	</div>
+</div>
+
+
+
+
+<div class="dropdown2">
+	<button class= "dropbtn2">BEAUTY</button>
+	<div class= "dropdown-content2">
+	<a href=> Bold and Beautiful </a>
+	<a href=> How To Make Up</a>
+	<a href=> Celeb Looks</a>
+	</div>
+</div>
+
+
+<div class="dropdown3">
+	<button class= "dropbtn3">FOOD</button>
+	<div class= "dropdown-content3">
+	<a href=> Recipes</a>
+	<a href=> 2 Min Cooks</a>
+	<a href=> Sustainable Snacks </a>
+	</div>
+</div>
+
+
+<div class="dropdown4">
+	<button class= "dropbtn4">WELLNESS</button>
+	<div class= "dropdown-content4">
+	<a href=> Mental Health</a>
+	<a href=> Diet</a>
+	<a href=> Stress Busters </a>
+	</div>
+</div>
+
+
+<div class="dropdown5">
+	<button class= "dropbtn5"> TRAVEL </button>
+	<div class= "dropdown-content5">
+	<a href=> Within The Country </a>
+	<a href=> Beyond Borders</a>
+	<a href=> Affordable Sites </a>
+	</div>
+</div>
+
+
+<div class="dropdown6">
+	<button class= "dropbtn6"> CELEBS </button>
+	<div class= "dropdown-content6">
+	<a href=> Bollywood </a>
+	<a href=> Hollywood</a>
+	<a href=> Oscars </a>
+	</div>
+</div> 
+
+
+
+
+
+
+
+	
+
+<div class="mainhd"> <p> MAKE IT MINIMAL </p> </div>
+
+
+<div class="content"><p>Millennials are known to have grown up in a culture wherein one is encouraged to show off and spend a lot of money. And when one lives in such times it is hard to minimise your possessions and solely invest in things that you truly need. But if you care for the environment, you need to adopt a minimalist lifestyle. In fact, minimalism has been trending all over social media and also making its way into various industries like fashion, design, food, technology, housing, beauty, and so on. Here are some ways in which you can imbibe the idea of minimalism on an individual level.</p></div>
+
+<img src= "https://gumlet.assettype.com/thebridgechronicle%2Fimport%2Fs3fs-public%2Fnews-story%2Fcover-images%2F0plus4_Make_it_minimal.jpg?auto=format%2Ccompress&fit=max&w=1536&dpr=1.3"
+class="image1">
+
+
+<div class="subhd"><p>BEGIN WITH BABY STEPS</p></div>
+
+<div class="content"><p>Changing our lifestyle is not an easy task. Hence it is ideal to start small by taking one step at a time. Ankita Malakar, Agartala-based Instagram blogger, who tries to go green by implementing a minimalist lifestyle, talks about ways in which she began her journey. She started small by clearing her junk mail, cleaning her room, switching to a wooden toothbrush and a comb instead of plastic ones, reading digital books ones instead of buying new ones, among many others.</p></div>
+
+
+<div class="subhd"><p>SET GOALS FOR YOURSELF</p></div>
+
+<div class="content"><p>Setting smaller targets for yourself makes it more realistic. Mumbai-based Li Actuallee, an interdisciplinary artist and a queer yogi, lives by the motto, ‘Live simply, so that you can love to the maximum’. Her core philosophy is to lead a more intentional life, full of simplicity and meaning. She has taken steps and made little changes in her everyday life that contribute to the planet and her own lifestyle on a very large scale. She carries tote bags while shopping, a tiffin box for the leftovers every time she goes out to eat and carries water in a reusable bottle. Whenever she requires something, she first tries to find a used version instead of purchasing a new one and similarly, when she is no longer in need of a particular item, she tries to find someone in need of it instead of just throwing it away.</p></div>
+
+<img src ="https://i.ytimg.com/vi/A5v6oKfDLjY/maxresdefault.jpg" class="image2">
+
+
+<div class="subhd"><p>REDO YOUR WARDROBE</p></div>
+
+<div class="content"><p>Vyshnavi Gudivada, popularly known as ‘The Indian Minimalist’, owns a website that talks about various methods of decluttering on a personal level. She suggests the 90/90 method, which has worked effectively for her. This method is about putting an item of clothing into a declutter bin if you have not used it for 90 consecutive days.
+She also asks consumers to think twice before purchasing new clothes as the production of a single t-shirt requires about 2,700 litres of water and with the prevailing water crisis going on in the country, water conservation is no longer just an option. Fast fashion brands use materials containing a large number of microplastics which are discharged into the air, water and land with every consecutive wash that damages the environment on a massive scale. Instead of buying from fast fashion brands, she suggests purchasing items from thrift stores and flea markets or even getting them stitched using environment friendly materials like hemp, cotton, linen and flax. But on the whole, buy less, as minimalism is all about lessening your possessions.</p></div>
+
+
+
+
+<div class="subhd"><p>REDUCE, RECYCLE, REUSE</p></div>
+
+<div class="content"><p>Sathvika Tummalapalli, a 21-year-old freelance graphic designer who mostly survives on hand-me-down clothes, feels that fast fashion brands generate a large amount of pollutant residue, thus harming the environment. She believes in the idea of finding a second use of already used items and using hand me downs is her core method to execute her belief. She feels that the hand-me-downs carry the souls of those who have worn and all of them happen to be her sisters. It calms her on a mental and emotional level, thus adding to her minimal lifestyle. </p> </div>
+
+
+<div class="subhd"><p>MULTIPLE BENEFITS</p></div>
+
+<div class="content"> <p>Reduce, recycle and reuse is the best formula that one can follow to adopt a minimalist lifestyle. Minimalism has multiple benefits, both mentally and environmentally. Vara Laxmi, a mass communication graduate from Hyderabad feels that the mind is at peace when one sets little goals for oneself. She also believes that decluttering not only organises the environment but the mind too. </p></div>
